@@ -48,4 +48,3 @@ majority_vote = np.round(data.mean(axis=0)).astype(int)
 print("\nmajority vote answer key:\n", majority_vote)
 agreement = (Z_consensus == majority_vote).mean()
 print(f"\nAgreement between CCT model and majority vote: {agreement:.2%}")
-
